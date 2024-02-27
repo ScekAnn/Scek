@@ -1,0 +1,160 @@
+div p {
+    background-color: bisque;
+}
+
+div h2 {
+    background-color: aqua;
+}
+
+#test p {
+    background-color: beige;
+}
+
+#test h2 {
+    background-color: blueviolet;
+}
+
+.bbb {
+    background-color: aquamarine;
+}
+
+#test .bbb {
+    background-color: chartreuse;
+}
+
+p.bbb {
+    background-color: darkred;
+}
+
+h2.bbb {
+    background-color: lavender;
+}
+
+#test p.bbb {
+    background-color: deeppink;
+}
+
+div h2, p {
+    background-color: darkorange;
+}
+/*10*/
+
+.bbb, .xxx {
+    font-style: italic;
+    padding: 5px
+}
+
+p.bbb, h2.xxx {
+    background-color: gold;
+}
+
+#test p.bbb, #test p.xxx {
+    background-color: darkgrey;
+}
+
+.fff {
+    background-color: mediumspringgreen;
+}
+    /*14*/
+    .fff p {
+        background-color: darkslategrey;
+    }
+
+p.fff {
+    background-color: coral;
+}
+
+.fff .bbb {
+    background-color: olive;
+}
+
+#test a:visited {
+    text-decoration: none;
+    color: red;
+}
+
+#test a:link {
+    text-decoration: underline;
+    color: rgb(87, 169, 236);
+}
+
+#test a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+a.www:visited, a.www:link {
+    text-decoration: none;
+    color: blue;
+}
+
+a.www:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+#test a.www:link {
+    color: tan;
+}
+
+#test a.www:hover {
+    color: black;
+}
+
+#test a.www:visited {
+    color: fuchsia;
+}
+
+.eee a.www:visited {
+    color: cadetblue;
+}
+
+.eee a.www:link {
+    color: deeppink;
+}
+
+.eee a.www:hover {
+    color: deepskyblue;
+}
+
+p > i {
+    color: darkslategrey;
+    background-color: white;
+}
+
+ul > li {
+    color: darkmagenta;
+}
+
+p > a, .test {
+    caption-side: top;
+}
+
+b + i {
+    color: darkgreen;
+}
+
+#test b + i {
+    color: black;
+    font-family: Dubai;
+}
+
+ul + p {
+    color: black;
+    background-color: hotpink;
+}
+
+h1 ~ p {
+    color: brown;
+    background-color: white;
+}
+
+#test h2 ~ p {
+    color: springgreen;
+    background-color: white;
+}
+
+p * i {
+    color: lightgreen;
+    background-color: dimgrey;
+}
