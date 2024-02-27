@@ -1,0 +1,66 @@
+
+#square {
+    position: absolute;
+    top: 30%;
+    left: 34%;
+    right: 80%;
+    bottom: 20%;
+    height: 150px;
+    width: 220px;
+    background: linear-gradient(to top, red 35%, white 35% 70%, red 70% 80%);
+}
+
+#rectanglee {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    right: 80%;
+    bottom: 20%;
+    width: 250px;
+    height: 140px;
+    background: linear-gradient(to top, darkblue 40%, white 10% 60%,red 20% 20%,white 10% 50%, darkblue 60% 90%);
+}
+
+#parallelogram {
+    position: absolute;
+    top: 30%;
+    left: 64%;
+    right: 80%;
+    bottom: 20%;
+    width: 30px;
+    height: 140px;
+    background: linear-gradient(to left, white 25%, red 25% 80%, white 80% 95%);
+    
+}
+
+#parallelogram1 {
+    position: absolute;
+    top: 36.4%;
+    left: 60%;
+    right: 80%;
+    bottom: 20%;
+    width: 250px;
+    height: 19px;
+    background: red;
+}
+
+
+.www {
+    position: absolute;
+    top: 55%;
+    left: 34%;
+    right: 80%;
+    bottom: 20%;
+    color: black;
+    font-family: "Rozha One"
+}
+
+.www1 {
+    position: absolute;
+    top: 55%;
+    left: 68%;
+    right: 80%;
+    bottom: 20%;
+    color: black;
+    font-family: "Rozha One"
+}
